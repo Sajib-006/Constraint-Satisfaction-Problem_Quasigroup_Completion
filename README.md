@@ -4,10 +4,10 @@
 
 An order m quasigroup is a Latin square of size m. That is, a m by m multiplication table in which each element occurs once in every row and column. For example,
 
-1        2       3       4__
-4        1       2       3__
-3        4       1       2__
-2        3       4       1__
+1        2       3       4<br />
+4        1       2       3<br />
+3        4       1       2<br />
+2        3       4       1<br />
 
 is an order 4 quasigroup. 
 
