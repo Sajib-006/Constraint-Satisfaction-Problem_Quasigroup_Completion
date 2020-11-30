@@ -21,7 +21,7 @@ For example, partially specified quasigroup
 0      3        0       0
 
 could be completed as the first example above.
->Here 0 means slot is empty.We have to fiilup it.That's the task!
+> Here 0 means slot is empty.We have to fiilup it.That's the task!
 ```
 
 ### Practical application:
