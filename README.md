@@ -1,13 +1,13 @@
 # Constraint-Satisfaction-Problem_Quasigroup_Completion
 
-Quasigroup Completion Problem (QCP)
+##Quasigroup Completion Problem (QCP)
 
 An order m quasigroup is a Latin square of size m. That is, a m by m multiplication table in which each element occurs once in every row and column. For example,
 
-1        2       3       4
-4        1       2       3
-3        4       1       2
-2        3       4       1
+1        2       3       4__
+4        1       2       3__
+3        4       1       2__
+2        3       4       1__
 
 is an order 4 quasigroup. 
 
@@ -15,29 +15,31 @@ is an order 4 quasigroup.
 Quasigroup Completion Problem asks to complete a quasigroup given some of its entries. 
 For example, partially specified quasigroup
 
-1                        4
-                 2        
-3               1        
-         3                
+1                        4__
+                 2        __
+3               1         __
+         3                __ 
 
 could be completed as the first example above.
 
-Practical application:
+###Practical application:
 Dynamic wavelength routing in Fiber Optic Networks can be directly mapped into the Quasigroup Completion Problem.
 
 
 
-Constraint Satisfaction Problems (CSP)
-* How to formulate? V, D, C
-* How to solve? Backtracking algorithms
-
-Solving a CSP
+##Constraint Satisfaction Problems (CSP)
+```
+- How to formulate? V, D, C
+- How to solve? Backtracking algorithms
+```
+##Solving a CSP
+```
 - Simple Backtracking (BT)
 - Forward Checking (FC)
 - Maintaining Arc Consistency (MAC)
+```
 
-
-Varible ordering heuristics:
+##Varible ordering heuristics:
 
 SDF: Smallest Domain First. The variable chosen is the one with the smallest domain.
  
